@@ -1,0 +1,765 @@
+{
+  "data": {
+    "Page": {
+      "pageInfo": {
+        "total": 5000,
+        "perPage": 50,
+        "currentPage": 1,
+        "lastPage": 100,
+        "hasNextPage": true
+      },
+      "media": [
+        {
+          "title": {
+            "romaji": "Gintama°",
+            "english": "Gintama Season 4",
+            "native": "銀魂°",
+            "userPreferred": "Gintama°"
+          },
+          "id": 20996,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20996-kBEGEGdeK1r7.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20996-kBEGEGdeK1r7.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20996-kBEGEGdeK1r7.jpg",
+            "color": "#e45d86"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Fruits Basket: The Final",
+            "english": "Fruits Basket The Final Season",
+            "native": "フルーツバスケットThe Final",
+            "userPreferred": "Fruits Basket: The Final"
+          },
+          "id": 124194,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124194-pWfBqp3GgjOx.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124194-pWfBqp3GgjOx.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124194-pWfBqp3GgjOx.jpg",
+            "color": "#28aee4"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+            "english": "Kaguya-sama: Love is War -Ultra Romantic-",
+            "native": "かぐや様は告らせたい-ウルトラロマンティック-",
+            "userPreferred": "Kaguya-sama wa Kokurasetai: Ultra Romantic"
+          },
+          "id": 125367,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125367-bl5vGalMH2cC.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx125367-bl5vGalMH2cC.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx125367-bl5vGalMH2cC.png",
+            "color": "#d6f1a1"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST",
+            "english": "Fullmetal Alchemist: Brotherhood",
+            "native": "鋼の錬金術師 FULLMETAL ALCHEMIST",
+            "userPreferred": "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST"
+          },
+          "id": 5114,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5114-KJTQz9AIm6Wk.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx5114-KJTQz9AIm6Wk.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5114-KJTQz9AIm6Wk.jpg",
+            "color": "#e4c993"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Shingeki no Kyojin 3 Part 2",
+            "english": "Attack on Titan Season 3 Part 2",
+            "native": "進撃の巨人３ Part.2",
+            "userPreferred": "Shingeki no Kyojin 3 Part 2"
+          },
+          "id": 104578,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104578-LaZYFkmhinfB.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx104578-LaZYFkmhinfB.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104578-LaZYFkmhinfB.jpg",
+            "color": "#fea150"
+          }
+        },
+        {
+          "title": {
+            "romaji": "BLEACH: Sennen Kessen-hen",
+            "english": "BLEACH: Thousand-Year Blood War",
+            "native": "BLEACH 千年血戦篇",
+            "userPreferred": "BLEACH: Sennen Kessen-hen"
+          },
+          "id": 116674,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116674-p3zK4PUX2Aag.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116674-p3zK4PUX2Aag.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116674-p3zK4PUX2Aag.jpg",
+            "color": "#e45043"
+          }
+        },
+        {
+          "title": {
+            "romaji": "3-gatsu no Lion 2",
+            "english": "March comes in like a lion Season 2",
+            "native": "３月のライオン 2",
+            "userPreferred": "3-gatsu no Lion 2"
+          },
+          "id": 98478,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98478-dF3mpSKiZkQu.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98478-dF3mpSKiZkQu.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98478-dF3mpSKiZkQu.jpg",
+            "color": "#785028"
+          }
+        },
+        {
+          "title": {
+            "romaji": "HUNTER×HUNTER (2011)",
+            "english": "Hunter x Hunter (2011)",
+            "native": "HUNTER×HUNTER (2011)",
+            "userPreferred": "HUNTER×HUNTER (2011)"
+          },
+          "id": 11061,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-sIpBprNRfzCe.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx11061-sIpBprNRfzCe.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-sIpBprNRfzCe.png",
+            "color": "#f1d65d"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Owarimonogatari (Ge)",
+            "english": "Owarimonogatari Second Season",
+            "native": "終物語（下）",
+            "userPreferred": "Owarimonogatari (Ge)"
+          },
+          "id": 21745,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21745-vHwC1VKoL6zf.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21745-vHwC1VKoL6zf.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21745-vHwC1VKoL6zf.png",
+            "color": "#f14378"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Steins;Gate",
+            "english": "Steins;Gate",
+            "native": "シュタインズ・ゲート",
+            "userPreferred": "Steins;Gate"
+          },
+          "id": 9253,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-7pdcVzQSkKxT.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9253-7pdcVzQSkKxT.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-7pdcVzQSkKxT.jpg",
+            "color": "#e4a15d"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Gintama'",
+            "english": "Gintama Season 2",
+            "native": "銀魂’",
+            "userPreferred": "Gintama'"
+          },
+          "id": 9969,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9969-XyP8TZwb3L6S.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx9969-XyP8TZwb3L6S.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9969-XyP8TZwb3L6S.png",
+            "color": "#3586bb"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Gintama': Enchousen",
+            "english": "Gintama Season 3",
+            "native": "銀魂’延長戦",
+            "userPreferred": "Gintama': Enchousen"
+          },
+          "id": 15417,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx15417-Uc2uNdWEixwi.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx15417-Uc2uNdWEixwi.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15417-Uc2uNdWEixwi.jpg",
+            "color": "#50aed6"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Gintama.",
+            "english": "Gintama Season 5",
+            "native": "銀魂。",
+            "userPreferred": "Gintama."
+          },
+          "id": 97889,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx97889-NWQVqODOuBqI.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx97889-NWQVqODOuBqI.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97889-NWQVqODOuBqI.jpg",
+            "color": "#e4d650"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Bocchi the Rock!",
+            "english": "BOCCHI THE ROCK!",
+            "native": "ぼっち・ざ・ろっく！",
+            "userPreferred": "Bocchi the Rock!"
+          },
+          "id": 130003,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130003-5Y8rYzg982sq.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx130003-5Y8rYzg982sq.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx130003-5Y8rYzg982sq.png",
+            "color": "#e4bb50"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Mob Psycho 100 II",
+            "english": "Mob Psycho 100 II",
+            "native": "モブサイコ100 II",
+            "userPreferred": "Mob Psycho 100 II"
+          },
+          "id": 101338,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101338-7qOfIaEKSjgl.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101338-7qOfIaEKSjgl.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101338-7qOfIaEKSjgl.jpg",
+            "color": "#50e4f1"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Monogatari Series: Second Season",
+            "english": "Monogatari Series Second Season",
+            "native": "〈物語〉シリーズ セカンドシーズン",
+            "userPreferred": "Monogatari Series: Second Season"
+          },
+          "id": 17074,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17074-9lBqEOzptpam.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx17074-9lBqEOzptpam.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx17074-9lBqEOzptpam.png",
+            "color": "#43a1e4"
+          }
+        },
+        {
+          "title": {
+            "romaji": "MONSTER",
+            "english": "Monster",
+            "native": "MONSTER",
+            "userPreferred": "MONSTER"
+          },
+          "id": 19,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19-ham53gnijfiN.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx19-ham53gnijfiN.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx19-ham53gnijfiN.jpg",
+            "color": null
+          }
+        },
+        {
+          "title": {
+            "romaji": "Ashita no Joe 2",
+            "english": "Tomorrow's Joe 2",
+            "native": "あしたのジョー２",
+            "userPreferred": "Ashita no Joe 2"
+          },
+          "id": 2921,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2921-wxj62hpZVbuF.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2921-wxj62hpZVbuF.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2921-wxj62hpZVbuF.jpg",
+            "color": "#f13550"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Mob Psycho 100 III",
+            "english": "Mob Psycho 100 III",
+            "native": "モブサイコ100 Ⅲ",
+            "userPreferred": "Mob Psycho 100 III"
+          },
+          "id": 140439,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140439-qpBzXkvVqSx3.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140439-qpBzXkvVqSx3.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140439-qpBzXkvVqSx3.jpg",
+            "color": "#1ac9ff"
+          }
+        },
+        {
+          "title": {
+            "romaji": "ONE PIECE",
+            "english": "ONE PIECE",
+            "native": "ONE PIECE",
+            "userPreferred": "ONE PIECE"
+          },
+          "id": 21,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21-tXMN3Y20PIL9.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21-tXMN3Y20PIL9.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21-tXMN3Y20PIL9.jpg",
+            "color": "#e4a15d"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Kimetsu no Yaiba: Yuukaku-hen",
+            "english": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+            "native": "鬼滅の刃 遊郭編",
+            "userPreferred": "Kimetsu no Yaiba: Yuukaku-hen"
+          },
+          "id": 142329,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142329-kET1PIXJv2eW.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx142329-kET1PIXJv2eW.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142329-kET1PIXJv2eW.jpg",
+            "color": "#f19350"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou",
+            "english": "HAIKYU!! 3rd Season",
+            "native": "ハイキュー!! 烏野高校 VS 白鳥沢学園高校",
+            "userPreferred": "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou"
+          },
+          "id": 21698,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21698-RL71mr1YU5Io.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx21698-RL71mr1YU5Io.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21698-RL71mr1YU5Io.png",
+            "color": "#e48635"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Gintama.: Shirogane no Tamashii-hen - Kouhan-sen",
+            "english": "Gintama.: Silver Soul Arc - Second Half War",
+            "native": "銀魂. 銀ノ魂篇2",
+            "userPreferred": "Gintama.: Shirogane no Tamashii-hen - Kouhan-sen"
+          },
+          "id": 101925,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101925-gcA84dgcSj2w.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101925-gcA84dgcSj2w.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101925-gcA84dgcSj2w.png",
+            "color": "#5da1e4"
+          }
+        },
+        {
+          "title": {
+            "romaji": "VINLAND SAGA",
+            "english": "Vinland Saga",
+            "native": "ヴィンランド・サガ",
+            "userPreferred": "VINLAND SAGA"
+          },
+          "id": 101348,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101348-msJS8z91mG0P.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101348-msJS8z91mG0P.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101348-msJS8z91mG0P.jpg",
+            "color": "#e45d50"
+          }
+        },
+        {
+          "title": {
+            "romaji": "CLANNAD: After Story",
+            "english": "Clannad: After Story",
+            "native": "ＣＬＡＮＮＡＤ ~After Story~ クラナド アフターストーリー",
+            "userPreferred": "CLANNAD: After Story"
+          },
+          "id": 4181,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4181-V1LCtX1rJgbR.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4181-V1LCtX1rJgbR.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-V1LCtX1rJgbR.png",
+            "color": "#e4d643"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Shingeki no Kyojin: The Final Season",
+            "english": "Attack on Titan Final Season",
+            "native": "進撃の巨人 The Final Season",
+            "userPreferred": "Shingeki no Kyojin: The Final Season"
+          },
+          "id": 110277,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110277-qDRIhu50PXzz.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx110277-qDRIhu50PXzz.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110277-qDRIhu50PXzz.jpg",
+            "color": "#ae5d1a"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen",
+            "english": "Descending Stories: Showa Genroku Rakugo Shinju",
+            "native": "昭和元禄落語心中～助六再び篇～",
+            "userPreferred": "Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen"
+          },
+          "id": 21733,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21733-SUV6bCTsU51u.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21733-SUV6bCTsU51u.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21733-SUV6bCTsU51u.png",
+            "color": "#e4d66b"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Code Geass: Hangyaku no Lelouch R2",
+            "english": "Code Geass: Lelouch of the Rebellion R2",
+            "native": "コードギアス 反逆のルルーシュ R2",
+            "userPreferred": "Code Geass: Hangyaku no Lelouch R2"
+          },
+          "id": 2904,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx2904-xdm9EZ46VGCs.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx2904-xdm9EZ46VGCs.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx2904-xdm9EZ46VGCs.jpg",
+            "color": "#5215CD"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Shingeki no Kyojin: The Final Season Part 2",
+            "english": "Attack on Titan Final Season Part 2",
+            "native": "進撃の巨人 The Final Season Part 2",
+            "userPreferred": "Shingeki no Kyojin: The Final Season Part 2"
+          },
+          "id": 131681,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131681-ODIRpBIbR5Eu.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131681-ODIRpBIbR5Eu.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131681-ODIRpBIbR5Eu.jpg",
+            "color": "#50bbf1"
+          }
+        },
+        {
+          "title": {
+            "romaji": "86: Eighty Six Part 2",
+            "english": "86 EIGHTY-SIX Season 2",
+            "native": "86－エイティシックス－ 第2クール",
+            "userPreferred": "86: Eighty Six Part 2"
+          },
+          "id": 131586,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131586-k0X2kVpUOkqX.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx131586-k0X2kVpUOkqX.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131586-k0X2kVpUOkqX.jpg",
+            "color": "#e4501a"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Jujutsu Kaisen",
+            "english": "JUJUTSU KAISEN",
+            "native": "呪術廻戦",
+            "userPreferred": "Jujutsu Kaisen"
+          },
+          "id": 113415,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-bbBWj4pEFseh.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-bbBWj4pEFseh.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-bbBWj4pEFseh.jpg",
+            "color": "#e45d5d"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Mushishi Zoku Shou 2",
+            "english": "MUSHI-SHI The Next Passage 2",
+            "native": "蟲師 続章 2",
+            "userPreferred": "Mushishi Zoku Shou 2"
+          },
+          "id": 20751,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20751-O3XJ9u30y7Qj.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20751-O3XJ9u30y7Qj.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20751-O3XJ9u30y7Qj.png",
+            "color": null
+          }
+        },
+        {
+          "title": {
+            "romaji": "SPY×FAMILY",
+            "english": "SPY x FAMILY",
+            "native": "SPY×FAMILY",
+            "userPreferred": "SPY×FAMILY"
+          },
+          "id": 140960,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140960-vN39AmOWrVB5.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-vN39AmOWrVB5.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140960-vN39AmOWrVB5.jpg",
+            "color": "#c9f1f1"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+            "english": "Mushoku Tensei: Jobless Reincarnation Cour 2",
+            "native": "無職転生 ～異世界行ったら本気だす～ 第2クール",
+            "userPreferred": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2"
+          },
+          "id": 127720,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127720-ADJgIrUVMdU9.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127720-ADJgIrUVMdU9.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127720-ADJgIrUVMdU9.jpg",
+            "color": "#d6bb1a"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Kaguya-sama wa Kokurasetai?: Tensaitachi no Renai Zunousen",
+            "english": "Kaguya-sama: Love is War?",
+            "native": "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
+            "userPreferred": "Kaguya-sama wa Kokurasetai?: Tensaitachi no Renai Zunousen"
+          },
+          "id": 112641,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112641-zoGC8d6FaPXU.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx112641-zoGC8d6FaPXU.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112641-zoGC8d6FaPXU.jpg",
+            "color": "#DAD797"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Fruits Basket: 2nd Season",
+            "english": "Fruits Basket Season 2",
+            "native": "フルーツバスケット 2nd Season",
+            "userPreferred": "Fruits Basket: 2nd Season"
+          },
+          "id": 111762,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111762-C8TNf5uRlVNQ.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx111762-C8TNf5uRlVNQ.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx111762-C8TNf5uRlVNQ.jpg",
+            "color": "#f1ae78"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Haikyuu!! 2nd Season",
+            "english": "HAIKYU!! 2nd Season",
+            "native": "ハイキュー!! セカンドシーズン",
+            "userPreferred": "Haikyuu!! 2nd Season"
+          },
+          "id": 20992,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20992-aHgNbcalVEqk.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20992-aHgNbcalVEqk.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20992-aHgNbcalVEqk.png",
+            "color": "#f1860d"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Hajime no Ippo: THE FIGHTING!",
+            "english": "Fighting Spirit",
+            "native": "はじめの一歩 THE FIGHTING!",
+            "userPreferred": "Hajime no Ippo: THE FIGHTING!"
+          },
+          "id": 263,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx263-G7RlubsM73YY.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx263-G7RlubsM73YY.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx263-G7RlubsM73YY.png",
+            "color": "#f1935d"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Odd Taxi",
+            "english": "ODDTAXI",
+            "native": "オッドタクシー",
+            "userPreferred": "Odd Taxi"
+          },
+          "id": 128547,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128547-TWRVIu5zRTYx.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx128547-TWRVIu5zRTYx.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128547-TWRVIu5zRTYx.jpg",
+            "color": "#fed650"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Chainsaw Man",
+            "english": "Chainsaw Man",
+            "native": "チェンソーマン",
+            "userPreferred": "Chainsaw Man"
+          },
+          "id": 127230,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-FlochcFsyoF4.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127230-FlochcFsyoF4.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127230-FlochcFsyoF4.png",
+            "color": "#6b1a1a"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Made in Abyss: Retsujitsu no Ougonkyou",
+            "english": "Made in Abyss: The Golden City of the Scorching Sun",
+            "native": "メイドインアビス 烈日の黄金郷",
+            "userPreferred": "Made in Abyss: Retsujitsu no Ougonkyou"
+          },
+          "id": 114745,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114745-APZN90WhNMAD.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx114745-APZN90WhNMAD.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114745-APZN90WhNMAD.jpg",
+            "color": "#d6ae78"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Gintama.: Shirogane no Tamashii-hen",
+            "english": "Gintama.: Silver Soul Arc",
+            "native": "銀魂. 銀ノ魂篇",
+            "userPreferred": "Gintama.: Shirogane no Tamashii-hen"
+          },
+          "id": 100784,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100784-7fWdiduBFr95.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx100784-7fWdiduBFr95.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100784-7fWdiduBFr95.jpg",
+            "color": "#e4d650"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Cowboy Bebop",
+            "english": "Cowboy Bebop",
+            "native": "カウボーイビバップ",
+            "userPreferred": "Cowboy Bebop"
+          },
+          "id": 1,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1-CXtrrkMpJ8Zq.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1-CXtrrkMpJ8Zq.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1-CXtrrkMpJ8Zq.png",
+            "color": "#f1785d"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Mushishi Zoku Shou",
+            "english": "MUSHI-SHI The Next Passage",
+            "native": "蟲師 続章",
+            "userPreferred": "Mushishi Zoku Shou"
+          },
+          "id": 20595,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx20595-dXPvrTNRKFUb.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx20595-dXPvrTNRKFUb.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20595-dXPvrTNRKFUb.jpg",
+            "color": "#f1a150"
+          }
+        },
+        {
+          "title": {
+            "romaji": "ARIA The ORIGINATION",
+            "english": "ARIA The ORIGINATION",
+            "native": "ARIA The ORIGINATION",
+            "userPreferred": "ARIA The ORIGINATION"
+          },
+          "id": 3297,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3297-FHuyO7uiefNg.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx3297-FHuyO7uiefNg.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3297-FHuyO7uiefNg.png",
+            "color": "#5daef1"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Ping Pong THE ANIMATION",
+            "english": "Ping Pong the Animation",
+            "native": "ピンポン THE ANIMATION",
+            "userPreferred": "Ping Pong THE ANIMATION"
+          },
+          "id": 20607,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20607-naYLIcMOea11.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20607-naYLIcMOea11.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20607-naYLIcMOea11.jpg",
+            "color": "#e47843"
+          }
+        },
+        {
+          "title": {
+            "romaji": "VINLAND SAGA SEASON 2",
+            "english": "Vinland Saga Season 2",
+            "native": "ヴィンランド・サガ SEASON2",
+            "userPreferred": "VINLAND SAGA SEASON 2"
+          },
+          "id": 136430,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136430-f8Iza5GEynRW.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx136430-f8Iza5GEynRW.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136430-f8Iza5GEynRW.jpg",
+            "color": "#e4ae5d"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Haikyuu!! TO THE TOP 2",
+            "english": "HAIKYU‼ TO THE TOP Part 2",
+            "native": "ハイキュー!! TO THE TOP 2",
+            "userPreferred": "Haikyuu!! TO THE TOP 2"
+          },
+          "id": 113538,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113538-tHVE8j5mOPLu.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113538-tHVE8j5mOPLu.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113538-tHVE8j5mOPLu.jpg",
+            "color": "#e48635"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Shingeki no Kyojin 3",
+            "english": "Attack on Titan Season 3",
+            "native": "進撃の巨人３",
+            "userPreferred": "Shingeki no Kyojin 3"
+          },
+          "id": 99147,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99147-5RXELRvwjFl6.jpg",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99147-5RXELRvwjFl6.jpg",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99147-5RXELRvwjFl6.jpg",
+            "color": "#4386e4"
+          }
+        },
+        {
+          "title": {
+            "romaji": "Violet Evergarden",
+            "english": "Violet Evergarden",
+            "native": "ヴァイオレット・エヴァーガーデン",
+            "userPreferred": "Violet Evergarden"
+          },
+          "id": 21827,
+          "coverImage": {
+            "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx21827-10F6m50H4GJK.png",
+            "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx21827-10F6m50H4GJK.png",
+            "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21827-10F6m50H4GJK.png",
+            "color": "#3586e4"
+          }
+        }
+      ]
+    }
+  }
+}
