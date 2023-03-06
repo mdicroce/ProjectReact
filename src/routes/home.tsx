@@ -1,7 +1,19 @@
 import React from 'react'
 
-interface Props {
-  anime: string
+export interface CoverImage {
+  extraLarge: string
+  large: string
+  medium: string
+  color: string
+}
+
+export interface DataItem {
+  title: string
+  id: number
+  coverImage: CoverImage
+}
+export interface Props {
+  anime: [DataItem]
 }
 
 export const Home: React.FC<Props> = ({ anime }) => {
