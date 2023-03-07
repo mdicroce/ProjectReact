@@ -1,20 +1,22 @@
+import { Box, Card, CardMedia } from '@mui/material'
 import React from 'react'
 import type { CoverImage } from './home'
 
-interface StartEndDate {
+export interface StartEndDate {
   year: number
   month: number
   day: number
 }
-interface Title {
+export interface Title {
   romaji: string
   english: string
   native: string
   userPreferred: string
 }
 
-interface AnimeDetails {
-  Title: Title
+export interface AnimeDetails {
+  id: number
+  title: Title
   type: string
   status: string
   description: string
@@ -28,7 +30,7 @@ interface AnimeDetails {
   source: string
   coverImage: CoverImage
   bannerImage: string
-  genres: [string]
+  genres: string[]
   averageScore: number
 }
 
@@ -37,5 +39,16 @@ interface Props {
 }
 
 export const Detail: React.FC<Props> = ({ anime }) => {
-  return <div>detail</div>
+  console.log(anime)
+  return <div>
+
+    <Box sx={{ backgroundColor: 'red' }}>
+      <Card>
+        <CardMedia component="img" image={ anime.bannerImage } />
+        <Card>
+          
+        </Card>
+      </Card>
+    </Box>
+  </div>
 }

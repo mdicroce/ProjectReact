@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, CardContent, CardMedia, Typography } from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 import type { DataItem } from '../routes/home'
+import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
 interface Props {
   anime: DataItem
 }
@@ -9,11 +10,16 @@ interface Props {
 export const ListItem: React.FC<Props> = ({ anime }) => {
   const navigate = useNavigate()
   return (
-    <Card onClick={() => { navigate(`/detail/${anime.id}`) }}>
-      <CardMedia image={anime.coverImage.medium } src={'https://cdn.searchenginejournal.com/wp-content/uploads/2022/06/image-search-1600-x-840-px-62c6dc4ff1eee-sej.png'} />
-      <CardContent>
-        <Typography>{ anime.title }</Typography>
-      </CardContent>
+    <Grid2 lg={ 3 } md={4} sm={6} xs={6}>
+
+    <Card onClick={ () => {
+      navigate(`/detail/${anime.id}`)
+    } }>
+        <CardMedia component="img" image={ anime.coverImage.extraLarge } />
+        <CardContent className="pepito" >
+            <Typography>{ anime.title.userPreferred }</Typography>
+          </CardContent>
     </Card>
+  </Grid2>
   )
 }
