@@ -1,5 +1,7 @@
 import React from 'react'
 import { List } from '../components/List'
+import data from '../mock/data.json'
+// import { DataContext } from '../context/Context'
 
 export interface CoverImage {
   extraLarge?: string
@@ -19,10 +21,9 @@ export interface DataItem {
   id: number
   coverImage: CoverImage
 }
-export interface Props {
-  anime: DataItem[]
-}
 
-export const Home: React.FC<Props> = ({ anime }) => {
-  return <List animes={anime}/>
+export const Home: React.FC = () => {
+  const animes: DataItem[] = data.data.Page.media
+
+  return (<List animes={animes}/>)
 }
