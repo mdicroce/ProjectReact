@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { List } from '../components/List'
-import data from '../mock/data.json'
-// import { DataContext } from '../context/Context'
+import { useApiConection } from '../api/ApiConection'
+import { Loading } from '../components/Loading'
 
 export interface CoverImage {
   extraLarge?: string
@@ -23,7 +23,17 @@ export interface DataItem {
 }
 
 export const Home: React.FC = () => {
-  const animes: DataItem[] = data.data.Page.media
+  const { getAnimeList, animes } = useApiConection()
+  const [loading, setLoading] = useState(false)
+  useEffect(() => {
+    setLoading(true)
+    getAnimeList()
+      .catch((e) => { console.log(e) })
+  }, [])
+  useEffect(() => {
+    if (animes !== undefined && animes?.length > 0) { setLoading(false) }
+  }, [animes])
 
+  if (loading) { return <Loading/> }
   return (<List animes={animes}/>)
 }

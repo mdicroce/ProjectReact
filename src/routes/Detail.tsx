@@ -1,8 +1,10 @@
 import { Box, Card, CardMedia, Container, Typography } from '@mui/material'
+import { useParams } from 'react-router-dom'
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import type { CoverImage } from './home'
-import details from '../mock/details.json'
+import { useApiConection } from '../api/ApiConection'
+import { Loading } from '../components/Loading'
 
 export interface StartEndDate {
   year: number
@@ -37,8 +39,22 @@ export interface AnimeDetails {
 }
 
 export const Detail: React.FC = () => {
-  const animeDetail: AnimeDetails = details.data.Media
-
+  const { id } = useParams()
+  const { getAnimeDetail, animeDetail } = useApiConection()
+  const [loading, setLoading] = useState(false)
+  useEffect(() => {
+    if (id !== undefined) {
+      setLoading(true)
+      getAnimeDetail(id)
+        .catch(e => { console.log(e) })
+    }
+  }, [])
+  useEffect(() => {
+    if (animeDetail !== undefined) { setLoading(false) }
+  }, [animeDetail])
+  if (loading) {
+    return <Loading/>
+  }
   return <div>
 
     <Box sx={{ backgroundColor: 'red' }}>

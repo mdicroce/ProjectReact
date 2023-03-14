@@ -1,14 +1,15 @@
 import React from 'react'
 import './App.css'
+import { DataProvider } from './context/Context'
 import { Routes } from './Routes'
 
 function App (): JSX.Element {
   console.log(undefined != null)
   return (
-    <div>
+    <DataProvider>
       <Routes/>
 
-    </div>
+    </DataProvider>
   )
 }
 
