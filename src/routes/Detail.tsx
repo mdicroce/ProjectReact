@@ -1,10 +1,12 @@
-import { Box, Card, CardMedia, Container, Typography } from '@mui/material'
 import { useParams } from 'react-router-dom'
+import { Box, Card, CardMedia, Container, Stack, Typography } from '@mui/material'
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
 import React, { useEffect, useState } from 'react'
 import type { CoverImage } from './home'
 import { useApiConection } from '../api/ApiConection'
 import { Loading } from '../components/Loading'
+import { ListOfGenres } from '../components/ListOfGenres'
+import { DescriptionItem } from '../components/DescriptionItem'
 
 export interface StartEndDate {
   year: number
@@ -19,24 +21,24 @@ export interface Title {
 }
 
 export interface AnimeDetails {
-  format: string
+  format?: string
   id: number
   title: Title
-  type: string
-  status: string
-  description: string
-  startDate: StartEndDate
-  endDate: StartEndDate
-  season: string
-  seasonYear: number
-  episodes: number
-  duration: number
-  countryOfOrigin: string
-  source: string
-  coverImage: CoverImage
-  bannerImage: string
-  genres: string[]
-  averageScore: number
+  type?: string
+  status?: string
+  description?: string
+  startDate?: StartEndDate
+  endDate?: StartEndDate
+  season?: string
+  seasonYear?: number
+  episodes?: number
+  duration?: number
+  countryOfOrigin?: string
+  source?: string
+  coverImage?: CoverImage
+  bannerImage?: string
+  genres?: string[]
+  averageScore?: number
 }
 
 export const Detail: React.FC = () => {
@@ -56,6 +58,15 @@ export const Detail: React.FC = () => {
   if (loading) {
     return <Loading/>
   }
+
+  const getDate = (date: StartEndDate | undefined): string => {
+    if (date !== undefined) {
+      const newDate = new Date(`${date.year}/${date.month}/${date.day}`)
+      return newDate.toDateString()
+    }
+    return ''
+  }
+
   return <div>
 
     <Box sx={{ backgroundColor: 'red' }}>
@@ -65,18 +76,18 @@ export const Detail: React.FC = () => {
       <Grid2 container>
         <Grid2>
           <Card>
-            <CardMedia component="img" image={ animeDetail?.coverImage.large } />
+            <CardMedia component="img" image={ animeDetail?.coverImage?.large } />
           </Card>
           <Card>
             <Stack >
               <DescriptionItem label="Format" text={ animeDetail?.format } />
               <DescriptionItem label="Episodes" text={ animeDetail?.episodes } />
-              <DescriptionItem label="Episode Duration" text={ `${animeDetail?.duration} mins` } />
+              <DescriptionItem label="Episode Duration" text={ `${((animeDetail?.duration) != null) ? animeDetail?.duration : '-'} mins` } />
               <DescriptionItem label="Status" text={ animeDetail?.status } />
               <DescriptionItem label="Season" text={ animeDetail?.season } />
               <DescriptionItem label="Start Date" text={ getDate(animeDetail?.startDate) } />
               <DescriptionItem label="End Date" text={ getDate(animeDetail?.endDate) } />
-              <DescriptionItem label="averageScore" text={ `${animeDetail?.averageScore}` } />
+              <DescriptionItem label="averageScore" text={ `${((animeDetail?.averageScore) != null) ? animeDetail?.averageScore : '-'}` } />
               <DescriptionItem label="Source" text={ animeDetail?.source } />
               <DescriptionItem label="Country of Origin" text={ animeDetail?.countryOfOrigin } />
             </Stack>
