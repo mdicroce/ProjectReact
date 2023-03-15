@@ -19,6 +19,7 @@ export interface Title {
 }
 
 export interface AnimeDetails {
+  format: string
   id: number
   title: Title
   type: string
@@ -66,12 +67,45 @@ export const Detail: React.FC = () => {
           <Card>
             <CardMedia component="img" image={ animeDetail?.coverImage.large } />
           </Card>
+          <Card>
+            <Stack >
+              <DescriptionItem label="Format" text={ animeDetail?.format } />
+              <DescriptionItem label="Episodes" text={ animeDetail?.episodes } />
+              <DescriptionItem label="Episode Duration" text={ `${animeDetail?.duration} mins` } />
+              <DescriptionItem label="Status" text={ animeDetail?.status } />
+              <DescriptionItem label="Season" text={ animeDetail?.season } />
+              <DescriptionItem label="Start Date" text={ getDate(animeDetail?.startDate) } />
+              <DescriptionItem label="End Date" text={ getDate(animeDetail?.endDate) } />
+              <DescriptionItem label="averageScore" text={ `${animeDetail?.averageScore}` } />
+              <DescriptionItem label="Source" text={ animeDetail?.source } />
+              <DescriptionItem label="Country of Origin" text={ animeDetail?.countryOfOrigin } />
+            </Stack>
+          </Card>
         </Grid2>
         <Grid2>
           <Box>
             <Typography variant="h2" component="h1">
               { animeDetail?.title.userPreferred }
             </Typography>
+            <Typography variant='body2' component="p">
+              { animeDetail?.title.english }
+            </Typography>
+            <Typography variant='body2' component="p">
+              { animeDetail?.title.native }
+            </Typography>
+          </Box>
+          <Box>
+            <Container>
+              <Box>
+                <ListOfGenres genres={ animeDetail?.genres } />
+              </Box>
+              <Box>
+                <Typography variant="body1" component="p">
+                  { animeDetail?.description }
+                </Typography>
+              </Box>
+
+            </Container>
           </Box>
         </Grid2>
       </Grid2>
