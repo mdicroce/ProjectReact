@@ -1,10 +1,12 @@
-import { Box, Card, CardMedia, Container, Typography } from '@mui/material'
+import { Box, Card, CardMedia, Container, Stack, Typography } from '@mui/material'
 import { useParams } from 'react-router-dom'
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
 import React, { useEffect, useState } from 'react'
 import type { CoverImage } from './home'
 import { useApiConection } from '../api/ApiConection'
 import { Loading } from '../components/Loading'
+import { DescriptionItem } from '../components/DescriptionItem'
+import { ListOfGenres } from '../components/ListOfGenres'
 
 export interface StartEndDate {
   year: number
