@@ -35,6 +35,7 @@ export const animeSlice = createSlice({
     setAnimeDetail: (state, action: PayloadAction<AnimeDetails>) => {
       state.loading = false
       state.animeDetail = action.payload
+      console.log(state.animeDetail)
     }
   }
 })

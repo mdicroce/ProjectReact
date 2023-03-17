@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { List } from '../components/List'
-import data from '../mock/data.json'
+import { useAppDispatch, useAppSelector } from '../hooks/useRedux'
+import { getAnimes } from '../store/slices/Anime/Thunks'
 // import { DataContext } from '../context/Context'
 
 export interface CoverImage {
@@ -23,7 +24,17 @@ export interface DataItem {
 }
 
 export const Home: React.FC = () => {
-  const animes: DataItem[] = data.data.Page.media
+  const dispatch = useAppDispatch()
+  const animes: DataItem[] | undefined = useAppSelector((state) => state.anime.animes)
+  const isLoading: boolean | undefined = useAppSelector((state) => state.anime.loading)
 
+  useEffect(() => {
+    dispatch(getAnimes())
+      .catch(e => { console.log(e) })
+  }, [])
+
+  if (isLoading) {
+    return <div>Loading</div>
+  }
   return (<List animes={animes}/>)
 }

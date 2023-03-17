@@ -59,7 +59,7 @@ export const getAnimes = (page = 1) => {
   }
 }
 
-export const getAnimeDetail = (id: number): (dispatch: (arg0: {
+export const getAnimeDetail = (id: number | string | undefined): (dispatch: (arg0: {
   payload: AnimeDetails | undefined
   type: 'anime/startLoading' | 'anime/setAnimeDetail'
 }) => void) => Promise<void> => {
@@ -109,7 +109,7 @@ export const getAnimeDetail = (id: number): (dispatch: (arg0: {
     `
 
     const variables = `
-      {"id": ${id}}
+      {"id": ${id !== undefined ? id : ''}}
     `
     const optionsDetail = {
       method: 'POST',
