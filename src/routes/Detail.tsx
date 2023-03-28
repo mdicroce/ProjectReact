@@ -1,12 +1,12 @@
-import { useParams } from 'react-router-dom'
 import { Box, Card, CardMedia, Container, Stack, Typography } from '@mui/material'
+import { useParams } from 'react-router-dom'
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
 import React, { useEffect, useState } from 'react'
 import type { CoverImage } from './home'
 import { useApiConection } from '../api/ApiConection'
 import { Loading } from '../components/Loading'
-import { ListOfGenres } from '../components/ListOfGenres'
 import { DescriptionItem } from '../components/DescriptionItem'
+import { ListOfGenres } from '../components/ListOfGenres'
 
 export interface StartEndDate {
   year: number
@@ -46,6 +46,7 @@ export const Detail: React.FC = () => {
   const { getAnimeDetail, animeDetail } = useApiConection()
   const [loading, setLoading] = useState(false)
   useEffect(() => {
+    console.log(getAnimeDetail)
     if (id !== undefined) {
       setLoading(true)
       getAnimeDetail(id)
@@ -53,8 +54,10 @@ export const Detail: React.FC = () => {
     }
   }, [])
   useEffect(() => {
+    console.log('boca', animeDetail)
     if (animeDetail !== undefined) { setLoading(false) }
   }, [animeDetail])
+
   if (loading) {
     return <Loading/>
   }
@@ -82,12 +85,12 @@ export const Detail: React.FC = () => {
             <Stack >
               <DescriptionItem label="Format" text={ animeDetail?.format } />
               <DescriptionItem label="Episodes" text={ animeDetail?.episodes } />
-              <DescriptionItem label="Episode Duration" text={ `${((animeDetail?.duration) != null) ? animeDetail?.duration : '-'} mins` } />
+              <DescriptionItem label="Episode Duration" text={ `${animeDetail?.duration !== undefined ? animeDetail?.duration : ''} mins` } />
               <DescriptionItem label="Status" text={ animeDetail?.status } />
               <DescriptionItem label="Season" text={ animeDetail?.season } />
-              <DescriptionItem label="Start Date" text={ getDate(animeDetail?.startDate) } />
-              <DescriptionItem label="End Date" text={ getDate(animeDetail?.endDate) } />
-              <DescriptionItem label="averageScore" text={ `${((animeDetail?.averageScore) != null) ? animeDetail?.averageScore : '-'}` } />
+              <DescriptionItem label="Start Date" text={ animeDetail?.startDate !== undefined ? getDate(animeDetail?.startDate) : '' } />
+              <DescriptionItem label="End Date" text={ animeDetail?.endDate !== undefined ? getDate(animeDetail?.endDate) : '' } />
+              <DescriptionItem label="averageScore" text={ `${animeDetail?.averageScore !== undefined ? animeDetail?.averageScore : ''}` } />
               <DescriptionItem label="Source" text={ animeDetail?.source } />
               <DescriptionItem label="Country of Origin" text={ animeDetail?.countryOfOrigin } />
             </Stack>
