@@ -33,7 +33,7 @@ export const Home: React.FC = () => {
       .catch(e => { console.log(e) })
   }, [])
 
-  if (isLoading) {
+  if (isLoading === true) {
     return <div>Loading</div>
   }
   return (<List animes={animes}/>)
