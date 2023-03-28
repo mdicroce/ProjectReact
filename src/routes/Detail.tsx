@@ -57,6 +57,11 @@ export const Detail: React.FC = () => {
     console.log('boca', animeDetail)
     if (animeDetail !== undefined) { setLoading(false) }
   }, [animeDetail])
+
+  const getDate = (date: { year: number, month: number, day: number }): string => {
+    const newDate = new Date(`${date.year}/${date.month}/${date.day}`)
+    return newDate.toDateString()
+  }
   if (loading) {
     return <Loading/>
   }
@@ -75,12 +80,12 @@ export const Detail: React.FC = () => {
             <Stack >
               <DescriptionItem label="Format" text={ animeDetail?.format } />
               <DescriptionItem label="Episodes" text={ animeDetail?.episodes } />
-              <DescriptionItem label="Episode Duration" text={ `${animeDetail?.duration} mins` } />
+              <DescriptionItem label="Episode Duration" text={ `${animeDetail?.duration !== undefined ? animeDetail?.duration : ''} mins` } />
               <DescriptionItem label="Status" text={ animeDetail?.status } />
               <DescriptionItem label="Season" text={ animeDetail?.season } />
-              <DescriptionItem label="Start Date" text={ getDate(animeDetail?.startDate) } />
-              <DescriptionItem label="End Date" text={ getDate(animeDetail?.endDate) } />
-              <DescriptionItem label="averageScore" text={ `${animeDetail?.averageScore}` } />
+              <DescriptionItem label="Start Date" text={ animeDetail?.startDate !== undefined ? getDate(animeDetail?.startDate) : '' } />
+              <DescriptionItem label="End Date" text={ animeDetail?.endDate !== undefined ? getDate(animeDetail?.endDate) : '' } />
+              <DescriptionItem label="averageScore" text={ `${animeDetail?.averageScore !== undefined ? animeDetail?.averageScore : ''}` } />
               <DescriptionItem label="Source" text={ animeDetail?.source } />
               <DescriptionItem label="Country of Origin" text={ animeDetail?.countryOfOrigin } />
             </Stack>
