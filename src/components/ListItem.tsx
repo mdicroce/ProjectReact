@@ -12,7 +12,7 @@ export const ListItem: React.FC<Props> = ({ anime }) => {
   return (
     <Grid2 lg={ 3 } md={4} sm={6} xs={6}>
 
-    <Card onClick={ () => {
+    <Card className='listItemContainer' onClick={ () => {
       navigate(`/detail/${anime.id}`)
     } }>
         <CardMedia component="img" image={ anime.coverImage.extraLarge } />
