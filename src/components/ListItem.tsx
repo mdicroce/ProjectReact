@@ -15,7 +15,7 @@ export const ListItem: React.FC<Props> = ({ anime }) => {
     <Card onClick={ () => {
       navigate(`/detail/${anime.id}`)
     } }>
-        <CardMedia component="img" image={ anime.coverImage.extraLarge } alt={`Cover image for ${anime.title.userPreferred !== undefined ? anime.title.userPreferred : ''}`} />
+        <CardMedia component="img" image={ anime.coverImage.extraLarge } />
         <CardContent className="pepito" >
             <Typography>{ anime.title.userPreferred }</Typography>
           </CardContent>

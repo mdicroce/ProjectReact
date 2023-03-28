@@ -46,7 +46,6 @@ export const Detail: React.FC = () => {
   const { getAnimeDetail, animeDetail } = useApiConection()
   const [loading, setLoading] = useState(false)
   useEffect(() => {
-    console.log(getAnimeDetail)
     if (id !== undefined) {
       setLoading(true)
       getAnimeDetail(id)
@@ -54,7 +53,6 @@ export const Detail: React.FC = () => {
     }
   }, [])
   useEffect(() => {
-    console.log('boca', animeDetail)
     if (animeDetail !== undefined) { setLoading(false) }
   }, [animeDetail])
 

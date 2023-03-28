@@ -11,6 +11,7 @@ export const useApiConection = (): {
   getAnimeDetail: (selectedAnime: number | string) => Promise<any>
 } => {
   const { animes, setAnimes, setAnimeDetail, animeDetail } = useContext(DataContext)
+  console.log(setAnimes)
   const getAnimeList = async (): Promise<any> => {
     if (animes === undefined || animes.length > 0) {
       const query = `
@@ -67,9 +68,6 @@ export const useApiConection = (): {
         .then(data => setAnimes?.(data.data.Page.media))
         .catch((e) => {
           console.log(e)
-        })
-        .finally(() => {
-          console.log(animes)
         })
     }
   }

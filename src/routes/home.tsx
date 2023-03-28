@@ -27,12 +27,10 @@ export const Home: React.FC = () => {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
     setLoading(true)
-    console.log(useApiConection())
     getAnimeList()
       .catch((e) => { console.log(e) })
   }, [])
   useEffect(() => {
-    console.log(animes)
     if (animes !== undefined && animes?.length > 0) { setLoading(false) }
   }, [animes])
 
