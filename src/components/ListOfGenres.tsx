@@ -7,10 +7,14 @@ interface Props {
 
 export const ListOfGenres: React.FC<Props> = ({ genres }) => {
   return (
-    <div>
+    <ul>
       { genres?.map((gen: string, index: number) => {
-        return (<Chip key={index} label={gen} color="primary" />)
+        return (
+          <li key={index}>
+            <Chip label={ gen } color="primary" />
+          </li>
+        )
       })}
-    </div>
+    </ul>
   )
 }
