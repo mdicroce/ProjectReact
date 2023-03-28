@@ -3,7 +3,7 @@ import React from 'react'
 
 interface Props {
   label: string
-  text?: string | number
+  text: string | number
 }
 
 export const DescriptionItem: React.FC<Props> = ({ label, text }) => {
