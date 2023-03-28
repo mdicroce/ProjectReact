@@ -9,7 +9,7 @@ interface Props {
 }
 
 export const List: React.FC<Props> = ({ animes }) => {
-  return <Container>
+  return <Container className="listContainer">
     <Grid2 container spacing={ 2 }>
       { animes?.map((actual: DataItem): JSX.Element => {
         return <ListItem anime={ actual } key={ actual.id } />

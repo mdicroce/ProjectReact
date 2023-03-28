@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.listContainer {
+  margin: 1rem;
+}
+
+.listItemContainer {
+  transition: 1s ease-in-out;
+  
+}
+
+.listItemContainer:hover{
+  cursor: pointer;
+  transform: scale(105%);
+  transition: 0.3s ease-in-out;
+
+}
+
+.detailContainer {
+  justify-content: center;
+}
